@@ -1,9 +1,12 @@
 #include "retangulo.h"
 
-Retangulo::Retangulo(){
+
+Retangulo::Retangulo(int _x0, int _y0, int _larg, int _alt, int _fillmode, char _brush)
+{
 
 }
 
-Retangulo::draw(Screen &t){
+void Retangulo::draw(Screen &t)
+{
 
 }

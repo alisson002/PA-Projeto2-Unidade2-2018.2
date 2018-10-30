@@ -1,9 +1,12 @@
 #include "reta.h"
 
-Reta::Reta(){
+
+Reta::Reta(int _x0, int _y0, int _x1, int _y1, char brush)
+{
 
 }
 
-Reta::draw(Screen &t){
+void Reta::draw(Screen &t)
+{
 
 }

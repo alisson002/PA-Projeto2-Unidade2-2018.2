@@ -5,6 +5,8 @@
 
 using namespace std;
 
+using namespace std;
+
 class Screen{//Classe concreta
 
 private:
@@ -34,7 +36,7 @@ public:
   void clear();
 
   // muda o caractere de desenho
-  void setBrush(char brush);
+  void setBrush(char _brush);
 
   // envia a tela para um stream de saida
   friend ostream& operator<<(ostream &os, Screen &t);
