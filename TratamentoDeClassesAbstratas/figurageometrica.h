@@ -7,7 +7,7 @@ class FiguraGeometrica{//Classe abstrata
 
 public:
 
-    FiguraGeometrica();
+    char brush;
     virtual void draw(Screen &t) = 0;
 
 };

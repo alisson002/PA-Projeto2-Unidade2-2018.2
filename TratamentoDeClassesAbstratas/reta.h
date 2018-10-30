@@ -10,7 +10,8 @@ private:
     char brush;
 public:
 
-    Reta(int _x0, int _y0, int _x1,int _y1, char brush);
+    Reta(int _x0, int _y0, int _x1,int _y1, char _brush);
+    int Sinal(int x);
     void draw(Screen &t);
 
 };
