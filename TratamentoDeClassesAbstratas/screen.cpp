@@ -4,7 +4,7 @@ Screen::Screen(){
 
 }
 
-Screen::Screen(int nlin, int ncol){
+Screen::Screen(int nlin, int _ncol){
 
 }
 
@@ -20,7 +20,7 @@ void Screen::setBrush(char brush){
 
 }
 
-ostream &Screen::operator<<(ostream &os, Screen &t){//algo errado aqui
+friend ostream &Screen::operator<<(ostream &os, Screen &t){//algo errado aqui
 
 }
 

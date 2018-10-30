@@ -5,10 +5,13 @@
 
 class Circulo: public FiguraGeometrica{//Classe concreta
 
+private:
+    int r, x0, y0, fillmode;
+    char brush;
 public:
 
-    Circulo();
-    draw(Screen &t);
+    Circulo(int _r, int _x0, int _y0, int _fillmode, char _brush);
+    void draw(Screen &t);
 
 };
 

@@ -6,7 +6,6 @@ CONFIG -= qt
 SOURCES += \
         main.cpp \
     screen.cpp \
-    figurageometrica.cpp \
     reta.cpp \
     retangulo.cpp \
     circulo.cpp
