@@ -1,0 +1,88 @@
+.TH "Reta" 3 "Wed Oct 31 2018" "Version 1.0.0" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Reta \- The \fBReta\fP class: Desenha uma reta\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <reta\&.h>\fP
+.PP
+Inherits \fBFiguraGeometrica\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBReta\fP (int _x0, int _y0, int _x1, int _y1, char _brush)"
+.br
+.RI "\fBReta\fP: Construtor com argumentos\&. "
+.ti -1c
+.RI "int \fBSinal\fP (int x)"
+.br
+.RI "Sinal: auxilía draw no desenho da reta\&. "
+.ti -1c
+.RI "void \fBdraw\fP (\fBScreen\fP &t)"
+.br
+.RI "draw: Desenha a reta na tela "
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+The \fBReta\fP class: Desenha uma reta\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Reta::Reta (int _x0, int _y0, int _x1, int _y1, char _brush)"
+
+.PP
+\fBReta\fP: Construtor com argumentos\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_x0\fP Coordenada x do ponto inicial 
+.br
+\fI_y0\fP Coordenada y do ponto inicial 
+.br
+\fI_x1\fP Coordenada x do ponto final 
+.br
+\fI_y1\fP Coordenada y do ponto final 
+.br
+\fI_brush\fP Caractere de desenho 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void Reta::draw (\fBScreen\fP & t)\fC [virtual]\fP"
+
+.PP
+draw: Desenha a reta na tela 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIt\fP Tela 
+.RE
+.PP
+
+.PP
+Implements \fBFiguraGeometrica\fP\&.
+.SS "int Reta::Sinal (int x)"
+
+.PP
+Sinal: auxilía draw no desenho da reta\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIx\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

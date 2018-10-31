@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_figura_geometrica" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>FiguraGeometrica</compoundname>
+    <derivedcompoundref refid="class_circulo" prot="public" virt="non-virtual">Circulo</derivedcompoundref>
+    <derivedcompoundref refid="class_reta" prot="public" virt="non-virtual">Reta</derivedcompoundref>
+    <derivedcompoundref refid="class_retangulo" prot="public" virt="non-virtual">Retangulo</derivedcompoundref>
+    <includes refid="figurageometrica_8h" local="no">figurageometrica.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_figura_geometrica_1a7b835ffcb2f0ef57432167f997c75b8b" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char FiguraGeometrica::brush</definition>
+        <argsstring></argsstring>
+        <name>brush</name>
+        <briefdescription>
+<para>brush: Caractere de desenho </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="figurageometrica.h" line="14" column="1" bodyfile="figurageometrica.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_figura_geometrica_1a8ee8dedc060b6059a805ea091aef2c41" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void FiguraGeometrica::draw</definition>
+        <argsstring>(Screen &amp;t)=0</argsstring>
+        <name>draw</name>
+        <reimplementedby refid="class_retangulo_1ac088dd6d3f4f3d3f80363a868c2e74f1">draw</reimplementedby>
+        <reimplementedby refid="class_circulo_1a593787d6e0618c2eded23e8839e7bea6">draw</reimplementedby>
+        <reimplementedby refid="class_reta_1ac2e9805183cd474b62bffd8b032cd780">draw</reimplementedby>
+        <param>
+          <type><ref refid="class_screen" kindref="compound">Screen</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>draw: Desenha figuras geométricas </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tela </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="figurageometrica.h" line="19" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_figura_geometrica" kindref="compound">FiguraGeometrica</ref> class: Classe abstrata para desenhar figuras geométricas. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>Circulo</label>
+        <link refid="class_circulo"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>FiguraGeometrica</label>
+        <link refid="class_figura_geometrica"/>
+      </node>
+      <node id="7">
+        <label>Retangulo</label>
+        <link refid="class_retangulo"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Reta</label>
+        <link refid="class_reta"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="figurageometrica.h" line="8" column="1" bodyfile="figurageometrica.h" bodystart="8" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_figura_geometrica_1a7b835ffcb2f0ef57432167f997c75b8b" prot="public" virt="non-virtual"><scope>FiguraGeometrica</scope><name>brush</name></member>
+      <member refid="class_figura_geometrica_1a8ee8dedc060b6059a805ea091aef2c41" prot="public" virt="pure-virtual"><scope>FiguraGeometrica</scope><name>draw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

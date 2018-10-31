@@ -1,0 +1,6 @@
+dim 70 70
+Retangulo 40 40 20 25 0 .
+Retangulo 22 35 10 10 1 .
+Circulo 40 13 2 0 .
+Circulo 8 8 3 1 .
+Reta 10 14 25 14 .

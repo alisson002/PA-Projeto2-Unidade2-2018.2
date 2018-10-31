@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_reta" kind="class" language="C++" prot="public">
+    <compoundname>Reta</compoundname>
+    <basecompoundref refid="class_figura_geometrica" prot="public" virt="non-virtual">FiguraGeometrica</basecompoundref>
+    <includes refid="reta_8h" local="no">reta.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_reta_1a9a479e83463e76ae54e3d5cd6fde5613" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Reta::x0</definition>
+        <argsstring></argsstring>
+        <name>x0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="reta.h" line="11" column="1" bodyfile="reta.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_reta_1a89bbdd8e21fb1bc497d51bb4a69ef699" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Reta::y0</definition>
+        <argsstring></argsstring>
+        <name>y0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="reta.h" line="11" column="1" bodyfile="reta.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_reta_1acdfe595f7ac2488d297da66fe10073d1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Reta::x1</definition>
+        <argsstring></argsstring>
+        <name>x1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="reta.h" line="11" column="1" bodyfile="reta.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_reta_1a8f829025e1747b5999527e8f3c2607fd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Reta::y1</definition>
+        <argsstring></argsstring>
+        <name>y1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="reta.h" line="11" column="1" bodyfile="reta.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_reta_1ad36f8281c35cbf7bd71a9c3c0529b4dd" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char Reta::brush</definition>
+        <argsstring></argsstring>
+        <name>brush</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="reta.h" line="12" column="1" bodyfile="reta.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_reta_1a8a02b4b99c3b8cde3c0a6d04b6937ef7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Reta::Reta</definition>
+        <argsstring>(int _x0, int _y0, int _x1, int _y1, char _brush)</argsstring>
+        <name>Reta</name>
+        <param>
+          <type>int</type>
+          <declname>_x0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_y0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_x1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_y1</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>_brush</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_reta" kindref="compound">Reta</ref>: Construtor com argumentos. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_x0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordenada x do ponto inicial </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_y0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordenada y do ponto inicial </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_x1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordenada x do ponto final </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_y1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordenada y do ponto final </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_brush</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caractere de desenho </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="reta.h" line="22" column="1" bodyfile="reta.cpp" bodystart="4" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reta_1a0890517655f27827a827c88850f8984e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Reta::Sinal</definition>
+        <argsstring>(int x)</argsstring>
+        <name>Sinal</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Sinal: auxilía draw no desenho da reta. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="reta.h" line="28" column="1" bodyfile="reta.cpp" bodystart="13" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reta_1ac2e9805183cd474b62bffd8b032cd780" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Reta::draw</definition>
+        <argsstring>(Screen &amp;t)</argsstring>
+        <name>draw</name>
+        <reimplements refid="class_figura_geometrica_1a8ee8dedc060b6059a805ea091aef2c41">draw</reimplements>
+        <param>
+          <type><ref refid="class_screen" kindref="compound">Screen</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>draw: Desenha a reta na tela </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tela </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="reta.h" line="33" column="1" bodyfile="reta.cpp" bodystart="35" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_reta" kindref="compound">Reta</ref> class: Desenha uma reta. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="10">
+        <label>FiguraGeometrica</label>
+        <link refid="class_figura_geometrica"/>
+      </node>
+      <node id="9">
+        <label>Reta</label>
+        <link refid="class_reta"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="12">
+        <label>FiguraGeometrica</label>
+        <link refid="class_figura_geometrica"/>
+      </node>
+      <node id="11">
+        <label>Reta</label>
+        <link refid="class_reta"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="reta.h" line="8" column="1" bodyfile="reta.h" bodystart="8" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_reta_1ad36f8281c35cbf7bd71a9c3c0529b4dd" prot="private" virt="non-virtual"><scope>Reta</scope><name>brush</name></member>
+      <member refid="class_reta_1ac2e9805183cd474b62bffd8b032cd780" prot="public" virt="virtual"><scope>Reta</scope><name>draw</name></member>
+      <member refid="class_reta_1a8a02b4b99c3b8cde3c0a6d04b6937ef7" prot="public" virt="non-virtual"><scope>Reta</scope><name>Reta</name></member>
+      <member refid="class_reta_1a0890517655f27827a827c88850f8984e" prot="public" virt="non-virtual"><scope>Reta</scope><name>Sinal</name></member>
+      <member refid="class_reta_1a9a479e83463e76ae54e3d5cd6fde5613" prot="private" virt="non-virtual"><scope>Reta</scope><name>x0</name></member>
+      <member refid="class_reta_1acdfe595f7ac2488d297da66fe10073d1" prot="private" virt="non-virtual"><scope>Reta</scope><name>x1</name></member>
+      <member refid="class_reta_1a89bbdd8e21fb1bc497d51bb4a69ef699" prot="private" virt="non-virtual"><scope>Reta</scope><name>y0</name></member>
+      <member refid="class_reta_1a8f829025e1747b5999527e8f3c2607fd" prot="private" virt="non-virtual"><scope>Reta</scope><name>y1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

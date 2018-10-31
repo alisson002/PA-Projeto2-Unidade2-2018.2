@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="reta_8h" kind="file" language="C++">
+    <compoundname>reta.h</compoundname>
+    <includes refid="figurageometrica_8h" local="yes">figurageometrica.h</includes>
+    <includedby refid="main_8cpp" local="yes">main.cpp</includedby>
+    <includedby refid="reta_8cpp" local="yes">reta.cpp</includedby>
+    <incdepgraph>
+      <node id="44">
+        <label>figurageometrica.h</label>
+        <link refid="figurageometrica_8h_source"/>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>screen.h</label>
+        <link refid="screen_8h_source"/>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>ostream</label>
+      </node>
+      <node id="43">
+        <label>reta.h</label>
+        <link refid="reta_8h"/>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_reta" prot="public">Reta</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>RETA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RETA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;figurageometrica.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_reta" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_reta" kindref="compound">Reta</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_figura_geometrica" kindref="compound">FiguraGeometrica</ref>{</highlight><highlight class="comment">//Classe<sp/>concreta</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x0,<sp/>y0,<sp/>x1,<sp/>y1;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>brush;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_reta_1a8a02b4b99c3b8cde3c0a6d04b6937ef7" kindref="member">Reta</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_x0,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_y0,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_x1,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_y1,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_brush);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_reta_1a0890517655f27827a827c88850f8984e" kindref="member">Sinal</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_reta_1ac2e9805183cd474b62bffd8b032cd780" kindref="member">draw</ref>(<ref refid="class_screen" kindref="compound">Screen</ref><sp/>&amp;t);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>RETA_H</highlight></codeline>
+    </programlisting>
+    <location file="reta.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_screen" kind="class" language="C++" prot="public">
+    <compoundname>Screen</compoundname>
+    <includes refid="screen_8h" local="no">screen.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_screen_1a5b5eccb332ec4d5a5610283ef29a5164" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Screen::nlin</definition>
+        <argsstring></argsstring>
+        <name>nlin</name>
+        <briefdescription>
+<para>nlin: Numero de linhas da tela </para>        </briefdescription>
+        <detaileddescription>
+<para>ncol: Numero de colunas da tela </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="screen.h" line="22" column="1" bodyfile="screen.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_screen_1a5973f5b14ee8dcf5f082fa66ceb23a5e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Screen::ncol</definition>
+        <argsstring></argsstring>
+        <name>ncol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="screen.h" line="22" column="1" bodyfile="screen.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_screen_1aa20056bc34de1832f8024764ac9c0e82" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char Screen::brush</definition>
+        <argsstring></argsstring>
+        <name>brush</name>
+        <briefdescription>
+<para>brush: caractere de desenho na tela </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="screen.h" line="28" column="1" bodyfile="screen.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_screen_1a25e00af60d7e87b9b31cacb050c602d3" prot="private" static="no" mutable="no">
+        <type>vector&lt; vector&lt; char &gt; &gt;</type>
+        <definition>vector&lt; vector&lt;char&gt; &gt; Screen::mat</definition>
+        <argsstring></argsstring>
+        <name>mat</name>
+        <briefdescription>
+<para>mat: Armazena a matriz da tela </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="screen.h" line="34" column="1" bodyfile="screen.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_screen_1ab3b8c9aeb1cf687c80c98397184f2293" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Screen::Screen</definition>
+        <argsstring>(int _nlin=40, int _ncol=40)</argsstring>
+        <name>Screen</name>
+        <param>
+          <type>int</type>
+          <declname>_nlin</declname>
+          <defval>40</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_ncol</declname>
+          <defval>40</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="class_screen" kindref="compound">Screen</ref>: Construtor com argumentos. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_nlin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Numero de linhas da tela </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_ncol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Numero de colunas da tela </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="screen.h" line="44" column="1" bodyfile="screen.cpp" bodystart="3" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_screen_1a13e5457f12f447082d4f7b1e70513be1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Screen::setScreen</definition>
+        <argsstring>(int lin, int col)</argsstring>
+        <name>setScreen</name>
+        <param>
+          <type>int</type>
+          <declname>lin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+<para>setScreen: Seta a matriz na tela </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Numero de linhas da tela </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>col</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Numero de colunas da tela </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="screen.h" line="50" column="1" bodyfile="screen.cpp" bodystart="12" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_screen_1ae6bea81c57a22d226507c3c26fa95ee0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Screen::setPixel</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>setPixel</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>setPixel: Desenha um pixel da matriz usando o caratere guardado em brush </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordenada do pixel em x </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordenada do pixel em y </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="screen.h" line="59" column="1" bodyfile="screen.cpp" bodystart="20" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_screen_1a35e74266b2a04e37b354ceff7a5f1031" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Screen::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+<para>clear: Limpa a tela </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="screen.h" line="65" column="1" bodyfile="screen.cpp" bodystart="29" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_screen_1aebc4eb6cb5acf15a0f04c1494622ab23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Screen::setBrush</definition>
+        <argsstring>(char _brush)</argsstring>
+        <name>setBrush</name>
+        <param>
+          <type>char</type>
+          <declname>_brush</declname>
+        </param>
+        <briefdescription>
+<para>setBrush: Muda o caractere guardado em brush </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_brush</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caractere de desenho </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="screen.h" line="72" column="1" bodyfile="screen.cpp" bodystart="41" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_screen_1aab6a2880746bfe1b7964817cc8f0989e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend ostream &amp;</type>
+        <definition>ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;os, Screen &amp;t)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="class_screen" kindref="compound">Screen</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>ostream&amp;: envia a tela para um stream de saida </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>os</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tela </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="screen.h" line="81" column="1" bodyfile="screen.cpp" bodystart="47" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_screen" kindref="compound">Screen</ref> class: Classe responsável pela construção da tela. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="screen.h" line="12" column="1" bodyfile="screen.h" bodystart="12" bodyend="83"/>
+    <listofallmembers>
+      <member refid="class_screen_1aa20056bc34de1832f8024764ac9c0e82" prot="private" virt="non-virtual"><scope>Screen</scope><name>brush</name></member>
+      <member refid="class_screen_1a35e74266b2a04e37b354ceff7a5f1031" prot="public" virt="non-virtual"><scope>Screen</scope><name>clear</name></member>
+      <member refid="class_screen_1a25e00af60d7e87b9b31cacb050c602d3" prot="private" virt="non-virtual"><scope>Screen</scope><name>mat</name></member>
+      <member refid="class_screen_1a5973f5b14ee8dcf5f082fa66ceb23a5e" prot="private" virt="non-virtual"><scope>Screen</scope><name>ncol</name></member>
+      <member refid="class_screen_1a5b5eccb332ec4d5a5610283ef29a5164" prot="private" virt="non-virtual"><scope>Screen</scope><name>nlin</name></member>
+      <member refid="class_screen_1aab6a2880746bfe1b7964817cc8f0989e" prot="public" virt="non-virtual"><scope>Screen</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_screen_1ab3b8c9aeb1cf687c80c98397184f2293" prot="public" virt="non-virtual"><scope>Screen</scope><name>Screen</name></member>
+      <member refid="class_screen_1aebc4eb6cb5acf15a0f04c1494622ab23" prot="public" virt="non-virtual"><scope>Screen</scope><name>setBrush</name></member>
+      <member refid="class_screen_1ae6bea81c57a22d226507c3c26fa95ee0" prot="public" virt="non-virtual"><scope>Screen</scope><name>setPixel</name></member>
+      <member refid="class_screen_1a13e5457f12f447082d4f7b1e70513be1" prot="public" virt="non-virtual"><scope>Screen</scope><name>setScreen</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_circulo" kind="class" language="C++" prot="public">
+    <compoundname>Circulo</compoundname>
+    <basecompoundref refid="class_figura_geometrica" prot="public" virt="non-virtual">FiguraGeometrica</basecompoundref>
+    <includes refid="circulo_8h" local="no">circulo.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_circulo_1a8f1dadd4b4a842f917697edac3070fde" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Circulo::r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="circulo.h" line="12" column="1" bodyfile="circulo.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_circulo_1af906acaa486c0a5b5da193f260b4aa15" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Circulo::x0</definition>
+        <argsstring></argsstring>
+        <name>x0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="circulo.h" line="12" column="1" bodyfile="circulo.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_circulo_1a0b4411a95e639006efe4992811c94bfe" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Circulo::y0</definition>
+        <argsstring></argsstring>
+        <name>y0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="circulo.h" line="12" column="1" bodyfile="circulo.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_circulo_1aa32919b38db6fe23adb6dde8f964bb62" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Circulo::fillmode</definition>
+        <argsstring></argsstring>
+        <name>fillmode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="circulo.h" line="12" column="1" bodyfile="circulo.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_circulo_1a41d524b7ab1e49a51e090822651000e1" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char Circulo::brush</definition>
+        <argsstring></argsstring>
+        <name>brush</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="circulo.h" line="13" column="1" bodyfile="circulo.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_circulo_1a2029d56d3c7dc5a2c3eecac50400ec65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Circulo::Circulo</definition>
+        <argsstring>(int _x0, int _y0, int _r, int _fillmode, char _brush)</argsstring>
+        <name>Circulo</name>
+        <param>
+          <type>int</type>
+          <declname>_x0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_y0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_fillmode</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>_brush</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_circulo" kindref="compound">Circulo</ref>: Construtor com argumentos. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_x0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordenada x inicial </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_y0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordenada y inicial </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_r</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Raio </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_fillmode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Determina se o circulo é preenchido ou não </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_brush</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caractere de desenho </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="circulo.h" line="24" column="1" bodyfile="circulo.cpp" bodystart="4" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_circulo_1a593787d6e0618c2eded23e8839e7bea6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Circulo::draw</definition>
+        <argsstring>(Screen &amp;t)</argsstring>
+        <name>draw</name>
+        <reimplements refid="class_figura_geometrica_1a8ee8dedc060b6059a805ea091aef2c41">draw</reimplements>
+        <param>
+          <type><ref refid="class_screen" kindref="compound">Screen</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>draw: Desenha um circulo na tela </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tela </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="circulo.h" line="29" column="1" bodyfile="circulo.cpp" bodystart="14" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_circulo" kindref="compound">Circulo</ref> class: Desenha circulos. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>Circulo</label>
+        <link refid="class_circulo"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>FiguraGeometrica</label>
+        <link refid="class_figura_geometrica"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Circulo</label>
+        <link refid="class_circulo"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>FiguraGeometrica</label>
+        <link refid="class_figura_geometrica"/>
+      </node>
+    </collaborationgraph>
+    <location file="circulo.h" line="8" column="1" bodyfile="circulo.h" bodystart="8" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_circulo_1a41d524b7ab1e49a51e090822651000e1" prot="private" virt="non-virtual"><scope>Circulo</scope><name>brush</name></member>
+      <member refid="class_circulo_1a2029d56d3c7dc5a2c3eecac50400ec65" prot="public" virt="non-virtual"><scope>Circulo</scope><name>Circulo</name></member>
+      <member refid="class_circulo_1a593787d6e0618c2eded23e8839e7bea6" prot="public" virt="virtual"><scope>Circulo</scope><name>draw</name></member>
+      <member refid="class_circulo_1aa32919b38db6fe23adb6dde8f964bb62" prot="private" virt="non-virtual"><scope>Circulo</scope><name>fillmode</name></member>
+      <member refid="class_circulo_1a8f1dadd4b4a842f917697edac3070fde" prot="private" virt="non-virtual"><scope>Circulo</scope><name>r</name></member>
+      <member refid="class_circulo_1af906acaa486c0a5b5da193f260b4aa15" prot="private" virt="non-virtual"><scope>Circulo</scope><name>x0</name></member>
+      <member refid="class_circulo_1a0b4411a95e639006efe4992811c94bfe" prot="private" virt="non-virtual"><scope>Circulo</scope><name>y0</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

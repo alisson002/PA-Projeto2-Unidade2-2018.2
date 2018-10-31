@@ -1,0 +1,123 @@
+.TH "Screen" 3 "Wed Oct 31 2018" "Version 1.0.0" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Screen \- The \fBScreen\fP class: Classe responsável pela construção da tela\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <screen\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBScreen\fP (int _nlin=40, int _ncol=40)"
+.br
+.RI "\fBScreen\fP: Construtor com argumentos\&. "
+.ti -1c
+.RI "void \fBsetScreen\fP (int lin, int col)"
+.br
+.RI "setScreen: Seta a matriz na tela "
+.ti -1c
+.RI "void \fBsetPixel\fP (int x, int y)"
+.br
+.RI "setPixel: Desenha um pixel da matriz usando o caratere guardado em brush "
+.ti -1c
+.RI "void \fBclear\fP ()"
+.br
+.RI "clear: Limpa a tela "
+.ti -1c
+.RI "void \fBsetBrush\fP (char _brush)"
+.br
+.RI "setBrush: Muda o caractere guardado em brush "
+.in -1c
+.SS "Friends"
+
+.in +1c
+.ti -1c
+.RI "ostream & \fBoperator<<\fP (ostream &os, \fBScreen\fP &t)"
+.br
+.RI "ostream&: envia a tela para um stream de saida "
+.in -1c
+.SH "Detailed Description"
+.PP 
+The \fBScreen\fP class: Classe responsável pela construção da tela\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Screen::Screen (int _nlin = \fC40\fP, int _ncol = \fC40\fP)"
+
+.PP
+\fBScreen\fP: Construtor com argumentos\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_nlin\fP Numero de linhas da tela 
+.br
+\fI_ncol\fP Numero de colunas da tela 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void Screen::setBrush (char _brush)"
+
+.PP
+setBrush: Muda o caractere guardado em brush 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_brush\fP Caractere de desenho 
+.RE
+.PP
+
+.SS "void Screen::setPixel (int x, int y)"
+
+.PP
+setPixel: Desenha um pixel da matriz usando o caratere guardado em brush 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIx\fP Coordenada do pixel em x 
+.br
+\fIy\fP Coordenada do pixel em y 
+.RE
+.PP
+
+.SS "void Screen::setScreen (int lin, int col)"
+
+.PP
+setScreen: Seta a matriz na tela 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIlin\fP Numero de linhas da tela 
+.br
+\fIcol\fP Numero de colunas da tela 
+.RE
+.PP
+
+.SH "Friends And Related Function Documentation"
+.PP 
+.SS "ostream& operator<< (ostream & os, \fBScreen\fP & t)\fC [friend]\fP"
+
+.PP
+ostream&: envia a tela para um stream de saida 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIos\fP 
+.br
+\fIt\fP Tela 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

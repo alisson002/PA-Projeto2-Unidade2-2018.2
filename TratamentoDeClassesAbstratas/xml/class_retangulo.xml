@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_retangulo" kind="class" language="C++" prot="public">
+    <compoundname>Retangulo</compoundname>
+    <basecompoundref refid="class_figura_geometrica" prot="public" virt="non-virtual">FiguraGeometrica</basecompoundref>
+    <includes refid="retangulo_8h" local="no">retangulo.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_retangulo_1a811d8f46753b615f9870683d430b71d5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Retangulo::x0</definition>
+        <argsstring></argsstring>
+        <name>x0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="retangulo.h" line="11" column="1" bodyfile="retangulo.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_retangulo_1a3fdd167c2845a13a242d90063b1fd228" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Retangulo::y0</definition>
+        <argsstring></argsstring>
+        <name>y0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="retangulo.h" line="11" column="1" bodyfile="retangulo.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_retangulo_1a2a43691fa6a3a9fbc1046cbebf0d2a3e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Retangulo::larg</definition>
+        <argsstring></argsstring>
+        <name>larg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="retangulo.h" line="11" column="1" bodyfile="retangulo.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_retangulo_1a9c983d6ae7eda90ade9b275bea679f69" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Retangulo::alt</definition>
+        <argsstring></argsstring>
+        <name>alt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="retangulo.h" line="11" column="1" bodyfile="retangulo.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_retangulo_1a3929d81e79adf204f0b09cc41b50f1e2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Retangulo::fillmode</definition>
+        <argsstring></argsstring>
+        <name>fillmode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="retangulo.h" line="11" column="1" bodyfile="retangulo.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_retangulo_1ac39e86c8830c0cbe5f4df9e0f45be18d" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char Retangulo::brush</definition>
+        <argsstring></argsstring>
+        <name>brush</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="retangulo.h" line="12" column="1" bodyfile="retangulo.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_retangulo_1abd3f3094751f5500de5407c8e2c3a271" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Retangulo::Retangulo</definition>
+        <argsstring>(int _x0, int _y0, int _larg, int _alt, int _fillmode, char _brush)</argsstring>
+        <name>Retangulo</name>
+        <param>
+          <type>int</type>
+          <declname>_x0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_y0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_larg</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_alt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_fillmode</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>_brush</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_retangulo" kindref="compound">Retangulo</ref>: Construtor com argumentos. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_x0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordenada x do ponto inicial </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_y0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordenada y do ponto inicial </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_larg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Largura </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_alt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Altura </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_fillmode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Determina se o retângulo é preenchido ou não </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_brush</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caractere de desenho </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="retangulo.h" line="23" column="1" bodyfile="retangulo.cpp" bodystart="4" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_retangulo_1ac088dd6d3f4f3d3f80363a868c2e74f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Retangulo::draw</definition>
+        <argsstring>(Screen &amp;t)</argsstring>
+        <name>draw</name>
+        <reimplements refid="class_figura_geometrica_1a8ee8dedc060b6059a805ea091aef2c41">draw</reimplements>
+        <param>
+          <type><ref refid="class_screen" kindref="compound">Screen</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>draw: Desenha um retâmgulo na tela </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tela </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="retangulo.h" line="28" column="1" bodyfile="retangulo.cpp" bodystart="15" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_retangulo" kindref="compound">Retangulo</ref> class: Desenha um retângulo. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="14">
+        <label>FiguraGeometrica</label>
+        <link refid="class_figura_geometrica"/>
+      </node>
+      <node id="13">
+        <label>Retangulo</label>
+        <link refid="class_retangulo"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="16">
+        <label>FiguraGeometrica</label>
+        <link refid="class_figura_geometrica"/>
+      </node>
+      <node id="15">
+        <label>Retangulo</label>
+        <link refid="class_retangulo"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="retangulo.h" line="8" column="1" bodyfile="retangulo.h" bodystart="8" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_retangulo_1a9c983d6ae7eda90ade9b275bea679f69" prot="private" virt="non-virtual"><scope>Retangulo</scope><name>alt</name></member>
+      <member refid="class_retangulo_1ac39e86c8830c0cbe5f4df9e0f45be18d" prot="private" virt="non-virtual"><scope>Retangulo</scope><name>brush</name></member>
+      <member refid="class_retangulo_1ac088dd6d3f4f3d3f80363a868c2e74f1" prot="public" virt="virtual"><scope>Retangulo</scope><name>draw</name></member>
+      <member refid="class_retangulo_1a3929d81e79adf204f0b09cc41b50f1e2" prot="private" virt="non-virtual"><scope>Retangulo</scope><name>fillmode</name></member>
+      <member refid="class_retangulo_1a2a43691fa6a3a9fbc1046cbebf0d2a3e" prot="private" virt="non-virtual"><scope>Retangulo</scope><name>larg</name></member>
+      <member refid="class_retangulo_1abd3f3094751f5500de5407c8e2c3a271" prot="public" virt="non-virtual"><scope>Retangulo</scope><name>Retangulo</name></member>
+      <member refid="class_retangulo_1a811d8f46753b615f9870683d430b71d5" prot="private" virt="non-virtual"><scope>Retangulo</scope><name>x0</name></member>
+      <member refid="class_retangulo_1a3fdd167c2845a13a242d90063b1fd228" prot="private" virt="non-virtual"><scope>Retangulo</scope><name>y0</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

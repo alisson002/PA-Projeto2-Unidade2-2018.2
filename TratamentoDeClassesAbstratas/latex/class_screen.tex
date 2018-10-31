@@ -1,0 +1,134 @@
+\section{Screen Class Reference}
+\label{class_screen}\index{Screen@{Screen}}
+
+
+The \doxyref{Screen}{p.}{class_screen} class\+: Classe responsável pela construção da tela.  
+
+
+
+
+{\ttfamily \#include $<$screen.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Screen} (int \+\_\+nlin=40, int \+\_\+ncol=40)
+\begin{DoxyCompactList}\small\item\em \doxyref{Screen}{p.}{class_screen}\+: Construtor com argumentos. \end{DoxyCompactList}\item 
+void \textbf{ set\+Screen} (int lin, int col)
+\begin{DoxyCompactList}\small\item\em set\+Screen\+: Seta a matriz na tela \end{DoxyCompactList}\item 
+void \textbf{ set\+Pixel} (int x, int y)
+\begin{DoxyCompactList}\small\item\em set\+Pixel\+: Desenha um pixel da matriz usando o caratere guardado em brush \end{DoxyCompactList}\item 
+\mbox{\label{class_screen_a35e74266b2a04e37b354ceff7a5f1031}} 
+void \textbf{ clear} ()
+\begin{DoxyCompactList}\small\item\em clear\+: Limpa a tela \end{DoxyCompactList}\item 
+void \textbf{ set\+Brush} (char \+\_\+brush)
+\begin{DoxyCompactList}\small\item\em set\+Brush\+: Muda o caractere guardado em brush \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \textbf{ operator$<$$<$} (ostream \&os, \textbf{ Screen} \&t)
+\begin{DoxyCompactList}\small\item\em ostream\&\+: envia a tela para um stream de saida \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \doxyref{Screen}{p.}{class_screen} class\+: Classe responsável pela construção da tela. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_screen_ab3b8c9aeb1cf687c80c98397184f2293}} 
+\index{Screen@{Screen}!Screen@{Screen}}
+\index{Screen@{Screen}!Screen@{Screen}}
+\subsubsection{Screen()}
+{\footnotesize\ttfamily Screen\+::\+Screen (\begin{DoxyParamCaption}\item[{int}]{\+\_\+nlin = {\ttfamily 40},  }\item[{int}]{\+\_\+ncol = {\ttfamily 40} }\end{DoxyParamCaption})}
+
+
+
+\doxyref{Screen}{p.}{class_screen}\+: Construtor com argumentos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+nlin} & Numero de linhas da tela \\
+\hline
+{\em \+\_\+ncol} & Numero de colunas da tela \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\label{class_screen_aebc4eb6cb5acf15a0f04c1494622ab23}} 
+\index{Screen@{Screen}!set\+Brush@{set\+Brush}}
+\index{set\+Brush@{set\+Brush}!Screen@{Screen}}
+\subsubsection{set\+Brush()}
+{\footnotesize\ttfamily void Screen\+::set\+Brush (\begin{DoxyParamCaption}\item[{char}]{\+\_\+brush }\end{DoxyParamCaption})}
+
+
+
+set\+Brush\+: Muda o caractere guardado em brush 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+brush} & Caractere de desenho \\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_screen_ae6bea81c57a22d226507c3c26fa95ee0}} 
+\index{Screen@{Screen}!set\+Pixel@{set\+Pixel}}
+\index{set\+Pixel@{set\+Pixel}!Screen@{Screen}}
+\subsubsection{set\+Pixel()}
+{\footnotesize\ttfamily void Screen\+::set\+Pixel (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+set\+Pixel\+: Desenha um pixel da matriz usando o caratere guardado em brush 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Coordenada do pixel em x \\
+\hline
+{\em y} & Coordenada do pixel em y \\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_screen_a13e5457f12f447082d4f7b1e70513be1}} 
+\index{Screen@{Screen}!set\+Screen@{set\+Screen}}
+\index{set\+Screen@{set\+Screen}!Screen@{Screen}}
+\subsubsection{set\+Screen()}
+{\footnotesize\ttfamily void Screen\+::set\+Screen (\begin{DoxyParamCaption}\item[{int}]{lin,  }\item[{int}]{col }\end{DoxyParamCaption})}
+
+
+
+set\+Screen\+: Seta a matriz na tela 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lin} & Numero de linhas da tela \\
+\hline
+{\em col} & Numero de colunas da tela \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Friends And Related Function Documentation}
+\mbox{\label{class_screen_aab6a2880746bfe1b7964817cc8f0989e}} 
+\index{Screen@{Screen}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Screen@{Screen}}
+\subsubsection{operator$<$$<$}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{\textbf{ Screen} \&}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+ostream\&\+: envia a tela para um stream de saida 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & \\
+\hline
+{\em t} & Tela \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+screen.\+h\item 
+screen.\+cpp\end{DoxyCompactItemize}

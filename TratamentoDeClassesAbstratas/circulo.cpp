@@ -1,7 +1,7 @@
 #include "circulo.h"
 
 
-Circulo::Circulo(int _r, int _x0, int _y0, int _fillmode, char _brush){
+Circulo::Circulo(int _x0, int _y0, int _r, int _fillmode, char _brush){
 
     r = _r;
     x0 = _x0;

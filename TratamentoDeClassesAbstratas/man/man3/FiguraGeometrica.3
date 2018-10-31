@@ -1,0 +1,51 @@
+.TH "FiguraGeometrica" 3 "Wed Oct 31 2018" "Version 1.0.0" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FiguraGeometrica \- The \fBFiguraGeometrica\fP class: Classe abstrata para desenhar figuras geométricas\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <figurageometrica\&.h>\fP
+.PP
+Inherited by \fBCirculo\fP, \fBReta\fP, and \fBRetangulo\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual void \fBdraw\fP (\fBScreen\fP &t)=0"
+.br
+.RI "draw: Desenha figuras geométricas "
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "char \fBbrush\fP"
+.br
+.RI "brush: Caractere de desenho "
+.in -1c
+.SH "Detailed Description"
+.PP 
+The \fBFiguraGeometrica\fP class: Classe abstrata para desenhar figuras geométricas\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "virtual void FiguraGeometrica::draw (\fBScreen\fP & t)\fC [pure virtual]\fP"
+
+.PP
+draw: Desenha figuras geométricas 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIt\fP Tela 
+.RE
+.PP
+
+.PP
+Implemented in \fBReta\fP, \fBCirculo\fP, and \fBRetangulo\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

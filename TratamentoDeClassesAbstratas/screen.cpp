@@ -1,13 +1,17 @@
 #include "screen.h"
 
-Screen::Screen(){
-
-}
-
 Screen::Screen(int _nlin, int _ncol){
 
     nlin = _nlin;
     ncol = _ncol;
+    char brush;
+
+    mat = vector< vector<char> >(nlin, vector<char>(ncol,brush = ' '));
+}
+
+void Screen::setScreen(int lin, int col){
+    nlin = lin;
+    ncol = col;
     char brush;
 
     mat = vector< vector<char> >(nlin, vector<char>(ncol,brush = ' '));

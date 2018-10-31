@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="figurageometrica_8h" kind="file" language="C++">
+    <compoundname>figurageometrica.h</compoundname>
+    <includes refid="screen_8h" local="yes">screen.h</includes>
+    <includedby refid="circulo_8h" local="yes">circulo.h</includedby>
+    <includedby refid="reta_8h" local="yes">reta.h</includedby>
+    <includedby refid="retangulo_8h" local="yes">retangulo.h</includedby>
+    <incdepgraph>
+      <node id="13">
+        <label>figurageometrica.h</label>
+        <link refid="figurageometrica_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>screen.h</label>
+        <link refid="screen_8h_source"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>ostream</label>
+      </node>
+      <node id="15">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="17">
+        <label>figurageometrica.h</label>
+        <link refid="figurageometrica_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>circulo.h</label>
+        <link refid="circulo_8h_source"/>
+      </node>
+      <node id="20">
+        <label>retangulo.h</label>
+        <link refid="retangulo_8h_source"/>
+      </node>
+      <node id="19">
+        <label>reta.h</label>
+        <link refid="reta_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_figura_geometrica" prot="public">FiguraGeometrica</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>FIGURAGEOMETRICA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FIGURAGEOMETRICA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;screen.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_figura_geometrica" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_figura_geometrica" kindref="compound">FiguraGeometrica</ref>{</highlight><highlight class="comment">//Classe<sp/>abstrata</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14" refid="class_figura_geometrica_1a7b835ffcb2f0ef57432167f997c75b8b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="class_figura_geometrica_1a7b835ffcb2f0ef57432167f997c75b8b" kindref="member">brush</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_figura_geometrica_1a8ee8dedc060b6059a805ea091aef2c41" kindref="member">draw</ref>(<ref refid="class_screen" kindref="compound">Screen</ref><sp/>&amp;t)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>FIGURAGEOMETRICA_H</highlight></codeline>
+    </programlisting>
+    <location file="figurageometrica.h"/>
+  </compounddef>
+</doxygen>
